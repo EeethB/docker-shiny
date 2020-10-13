@@ -1,6 +1,8 @@
 Docker for Shiny Server
 =======================
 
+Below is the README from the original repo, rocker-org/shiny. I cloned it and have been playing around with incremental changes in order to test running Shiny Server on my remote Ubuntu machine.
+
 ![](https://img.shields.io/docker/build/rocker/shiny.svg) ![](https://img.shields.io/docker/build/rocker/shiny-verse.svg)
 
 This is a Dockerfile for Shiny Server on Debian stable.  Dockerfiles building on specific versions of R are now available as tags.  These images are based on the corresponding [r-ver](https://hub.docker.com/r/rocker/r-ver) image.  You can request a specific R version using the appropriate tag, e.g. `rocker/shiny:3.3.2`.    
